@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Stopwatch</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="container">
+    <h1>Stopwatch</h1>
+
+    <div class="stopwatch-display">
+      <div class="time">
+        <span id="minutes">00</span>:<span id="seconds">00</span
+        ><span class="milliseconds" id="milliseconds">.00</span>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="start-btn" id="startBtn">
+        <i class="fas fa-play"></i> Start
+      </button>
+      <button class="pause-btn" id="pauseBtn">
+        <i class="fas fa-pause"></i> Pause
+      </button>
+      <button class="reset-btn" id="resetBtn">
+        <i class="fas fa-stop"></i> Reset
+      </button>
+      <button class="lap-btn" id="lapBtn">
+        <i class="fas fa-flag"></i> Lap
+      </button>
+    </div>
+
+    <div class="laps-container">
+      <div class="laps-header">
+        <span>Lap</span>
+        <span>Time</span>
+        <span>Duration</span>
+      </div>
+      <div id="lapsList">
+        <div class="no-laps">No laps recorded yet</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
