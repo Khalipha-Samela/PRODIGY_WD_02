@@ -14,9 +14,9 @@ This project is a **responsive, user-friendly stopwatch** that allows users to:
 
 ---
 
-## ✨ Features
+## 💻 Features 
 
-- ## 💻 Features  
+---
 ✅ Start, Pause, Reset, and Lap functionalities  
 ✅ Real-time time tracking up to milliseconds  
 ✅ Lap history with duration difference  
