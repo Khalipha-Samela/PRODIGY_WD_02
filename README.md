@@ -47,8 +47,8 @@ Through this task, I gained hands-on experience with:
 
 ## 🚀 Live Demo
  
-🔗 **Netlify Deployment:** [https://stowatch-webapp.netlify.app/] 
-🔗 **View the project here:** [https://github.com/Khalipha-Samela/PRODIGY_WD_02.git]
+- **Netlify Deployment:** [https://stowatch-webapp.netlify.app/] 
+- **GitHub:** [https://github.com/Khalipha-Samela/PRODIGY_WD_02.git]
 
 ---
 
